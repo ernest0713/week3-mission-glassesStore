@@ -1,0 +1,138 @@
+/* CSS Variables */
+:root {
+    /* bg color */
+    --primaryBgColor: #AA0601;
+    --secondaryBgColor: #FBF2F2;
+
+    /* text color */
+    --primaryText: #650300;
+    --secondaryText: #FFFFFF;
+    --thirdText: #212529;
+
+    /* font size */
+    --primaryFontSize: 20px
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans','Roboto', sans-serif;
+}
+/* Utility setting */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.sectTitle{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--primaryText);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.homeIcon{
+    width: 48px;
+    height: 48px;
+}
+.bgCover{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primaryBgColor);
+    color: var(--secondaryText);
+    padding: 30px 80px;
+}
+.storelogo {
+    width: 80px;
+    height: 50px;
+}
+.menu {
+    display: flex;
+}
+.menuItem{
+    font-size: var(--primaryFontSize);
+    color: var(--secondaryText);
+    line-height: 30px;
+    margin-left: 62px;
+    text-decoration: none;
+}
+.menuItem:hover{
+    font-size: calc(var(--primaryFontSize) * 1.1);
+}
+
+.footer{
+    background: var(--primaryBgColor);
+    padding:36px 0px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotMenu{
+    display: flex;
+    margin-right: auto;
+}
+.fotMenu li {
+    margin-right: 48px;
+}
+.fotMenu a{
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--secondaryText);
+}
+.fotIcon{
+    display: flex;
+}
+.fotIcon li{
+    margin-left: 32px;
+}
+.footer .contactList{
+    width: 1110px;
+    margin: 24px auto;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 32px;
+}
+.footer .contact li{
+    display: flex;
+    align-items: center;
+}
+.footer .contactList a{
+    text-decoration: none;
+    color: var(--secondaryText);
+    font-size: 36px;
+    line-height: 54px;
+}
+.footer .contact .contactListItem{
+    margin-left: 12px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright .storelogo{
+    margin-right: 38px;
+}
+.copyrightText{
+    font-size: 16px;
+    line-height: 24px;
+}
+.copyrightList{
+    display: flex;
+    color: var(--secondaryText);
+    align-items: center;
+}
+.copyrightListItem{
+    margin-left: 62px;
+    font-size: 14px;
+    line-height: 21px;
+}

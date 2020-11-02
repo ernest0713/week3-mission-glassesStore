@@ -1,0 +1,207 @@
+.banner{
+    height: 840px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20%;
+    text-align: right;
+    color: var(--primaryText);
+}
+
+.banner h3{
+    font-size: 36px;
+    line-height: 54px;
+}
+.banner h2{
+    font-size: 64px;
+    line-height: 96px;
+}
+.features{
+    background: var(--secondaryBgColor);
+    padding: 64px 0px;
+}
+.features .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.features ul li{
+    width:20%;
+}
+
+.featuresItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featuresItemImg{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.featuresItemTitle{
+    color: var(--primaryText);
+    font-size: 24px;
+    line-height: 36px;
+}
+.featuresItemIntro{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.classic{
+    padding: 64px 0px;
+}
+
+.theme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.themeImg{
+    max-width: 635px;
+    height: 320px;
+    margin-right: 30px;
+}
+.themeTitle{
+    color: var(--primaryText);
+    font-size: 48px;
+    line-height: 72px;
+    margin-right: auto;
+}
+.themeIcon{
+    width: 48px;
+    height: 48px;
+}
+
+.classicList li:nth-child(2) .theme{
+    flex-direction: row-reverse;
+}
+.classicList li:nth-child(2) .themeTitle{
+    margin-right: 0px;
+    margin-left: auto;
+}
+.classicList li:nth-child(2) .themeImg{
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.cobrand{
+    padding: 64px 0px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true");
+}
+.cobrand .sectTitle{
+    color: var(--secondaryText);
+}
+.cobrand .container{
+    display: flex;
+    justify-content: space-between;
+}
+.cobrandMenu{
+    width: 540px;
+    height: 472px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-8.png?raw=true");
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cobrandMenu:nth-child(2){
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-9.png?raw=true");
+}
+.cobrandTitle{
+    color: var(--primaryText);
+    font-size: 72px;
+    line-height: 108px;
+}
+
+.recommend{
+    padding: 64px 0px;
+}
+
+.recommend .container{
+    display: flex;
+    justify-content: space-between;
+}
+.recommendCard{
+    display: flex;
+    flex-direction:column;
+    width: 255px;
+    border: 1px solid #DEE2E6;
+}
+.recommendCardImg{
+    height: 256px;
+}
+.recommendCardContent{
+    padding: 16px;
+}
+.recommendCardContent p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--thirdText);
+}
+.recommendCardContent span{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--thirdText);
+}
+.recommendCardContent span.name{
+    font-weight: bold;
+}
+.recommendCardContent span.lastTime{
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+}
+
+.contact {
+    background: var(--secondaryBgColor);
+    padding: 64px 0px;
+}
+.contact .sectTitle{
+    margin-bottom: 0px;
+}
+
+.contactForm{
+    margin: 0 auto;
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+}
+.contactDes{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+.contactForm label{
+    font-size: 16px;
+    line-height: 24px;
+}
+.contactForm label.agree{
+    margin-bottom: 42px;
+}
+.contactForm input{
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+.contactForm .commend{
+    height: 136px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+.contactFormSub{
+    width: 50%;
+    background: var(--primaryBgColor);
+    color: var(--secondaryText);
+    margin: 0 auto;
+    padding: 16px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contactFormSub:hover{
+    background: var(--primaryText);
+}

@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .container{
+        max-width:768px;
+    }
+    .sectTitle{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+    .homeIcon{
+        width: 24px;
+        height: 24px;
+    }
+    .banner{
+        padding-right: 40px;
+    }
+    .banner h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner h2{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .features{
+        padding: 40px 85px;
+    }
+    .features ul li{
+        width: 48%;
+    }
+    .features .container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .featuresItems{
+        width: 237px;
+        margin-bottom: 40px;
+    }
+
+    .classic{
+        padding: 40px;
+    }
+    .themeImg{
+        max-width: 390px;
+        height: 168px;
+    }
+    .themeTitle{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .themeIcon{
+        width: 32px;
+        height: 32px;
+    }
+    .classicList li:nth-child(2) .theme{
+        flex-direction: row;
+    }
+    .classicList li:nth-child(2) .themeTitle{
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    .classicList li:nth-child(2) .themeImg{
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+    .cobrand{
+        padding: 40px;
+    }
+    .cobrandMenu{
+        width: 330px;
+        height: 280px;
+    }
+    .cobrandTitle{
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .recommend{
+        padding: 40px;
+    }
+    .recommend .container{
+        flex-wrap: wrap;
+    }
+    .recommendCard {
+        width: 330px;
+        margin-bottom: 28px;
+    }
+    .contact{
+        padding: 40px 0px;
+    }
+    .contactForm{
+        max-width: 450px;
+    }
+    .contactFormSub{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .contactDes{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px 0px;
+    }
+    .contactForm label {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .contactForm input{
+        padding: 8px 12px;
+        margin-bottom: 8px;
+    }
+    .footer{
+        padding: 40px;
+    }
+    .fotMenu li {
+        margin-right: 40px;
+    }
+    .footer .contactList a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .copyright .storelogo{
+        display:none;
+    }
+}
