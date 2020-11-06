@@ -86,14 +86,17 @@ body{
     justify-content: space-between;
     margin-bottom: 24px;
 }
-.footer .container div{
-    width: 70%;
-}
 .fotMenu{
     display: flex;
     justify-content: space-between;
     margin-right: auto;
     margin-bottom: 32px;
+}
+.fotMenu li{
+    margin-right: 48px;
+}
+.fotMenu li:last-child{
+    margin-right: 0px;
 }
 .fotMenu a{
     font-size: 16px;
