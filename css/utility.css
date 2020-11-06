@@ -16,6 +16,10 @@
 *,*::before,*::after{
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 body{
     font-family: 'Noto Sans','Roboto', sans-serif;
 }
@@ -57,11 +61,16 @@ body{
 .menu {
     display: flex;
 }
+.menu li{
+    margin-left: 62px;
+}
+.menu li:nth-child(1){
+    margin-left: 0;
+}
 .menuItem{
     font-size: var(--primaryFontSize);
     color: var(--secondaryText);
     line-height: 30px;
-    margin-left: 62px;
     text-decoration: none;
 }
 .menuItem:hover{
@@ -75,14 +84,16 @@ body{
 .footer .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 24px;
+}
+.footer .container div{
+    width: 70%;
 }
 .fotMenu{
     display: flex;
+    justify-content: space-between;
     margin-right: auto;
-}
-.fotMenu li {
-    margin-right: 48px;
+    margin-bottom: 32px;
 }
 .fotMenu a{
     font-size: 16px;
@@ -95,12 +106,6 @@ body{
 }
 .fotIcon li{
     margin-left: 32px;
-}
-.footer .contactList{
-    width: 1110px;
-    margin: 24px auto;
-    border-bottom: 1px solid #FFFFFF;
-    padding-bottom: 32px;
 }
 .footer .contact li{
     display: flex;
@@ -118,6 +123,8 @@ body{
 .copyright{
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 16px;
 }
 .copyright .storelogo{
     margin-right: 38px;
@@ -131,8 +138,18 @@ body{
     color: var(--secondaryText);
     align-items: center;
 }
+.copyright ul.copyrightList{
+    position: relative;
+    justify-content: flex-end;
+    width: 30%;
+}
 .copyrightListItem{
-    margin-left: 62px;
+    width: 50%;
     font-size: 14px;
     line-height: 21px;
+    text-align: right;
+}
+.copyrightListItem a{
+    text-decoration: none;
+    color: var(--secondaryText);
 }

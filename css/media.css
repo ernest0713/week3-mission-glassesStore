@@ -1,6 +1,14 @@
+@media (max-width: 1200px){
+    .container {
+        max-width: 100%;
+    }
+    .footer{
+        padding: 40px;
+    }
+}
 @media (max-width: 992px) {
-    .container{
-        max-width:768px;
+    .features .container{
+        flex-wrap: wrap;
     }
     .recommend{
         padding: 40px;
@@ -9,7 +17,7 @@
         flex-wrap: wrap;
     }
     .recommendCard {
-        width: 330px;
+        width: 48%;
         margin-bottom: 28px;
     }
 }
@@ -39,14 +47,10 @@
     }
     .features ul li{
         width: 48%;
+        margin-bottom: 40px;
     }
     .features .container{
-        flex-wrap: wrap;
         justify-content: space-evenly;
-    }
-    .featuresItems{
-        width: 237px;
-        margin-bottom: 40px;
     }
 
     .classic{
@@ -70,23 +74,19 @@
     .classicList li:nth-child(2) .themeTitle{
         margin-right: auto;
         margin-left: 0px;
-    }
-    .classicList li:nth-child(2) .themeImg{
-        margin-right: 30px;
-        margin-left: 0px;
+        padding-left: 30px;
+        padding-right: 0;
     }
     .cobrand{
         padding: 40px;
     }
     .cobrandMenu{
-        width: 330px;
         height: 280px;
     }
     .cobrandTitle{
         font-size: 32px;
         line-height: 45px;
     }
-    
     .contact{
         padding: 40px 0px;
     }
@@ -110,17 +110,126 @@
         padding: 8px 12px;
         margin-bottom: 8px;
     }
-    .footer{
-        padding: 40px;
-    }
-    .fotMenu li {
-        margin-right: 40px;
-    }
+    
     .footer .contactList a{
         font-size: 20px;
         line-height: 30px;
     }
     .copyright .storelogo{
         display:none;
+    }
+    @media (max-width: 575px){
+        .sectTitle{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .navbar {
+            flex-direction: column;
+            padding: 0;
+        }
+        .storelogo {
+            width: 48px;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .menu{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .menu li{
+            width: 50%;
+            border: 1px solid #FFFFFF;
+            margin-left: 0;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .banner{
+            padding-right: 15px;
+        }
+        .banner h3{
+            font-size: 16px;
+        }
+        .banner h2{
+            font-size: 32px;
+        }
+        .features ul li{
+            width: 100%;
+        }
+        .classic{
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .themeImg{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .themeTitle{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            color: var(--secondaryText);
+            text-align: center;
+            margin-top: -21px;
+        }
+        .themeIcon{
+            filter: brightness(300);
+            opacity: 0.8;
+        }
+        .classicList li:nth-child(2) .themeTitle{
+            padding: 0;
+        }
+        .cobrand{
+            padding: 32px 15px;
+        }
+        .cobrand .container{
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items:center;
+        }
+        .cobrandMenu{
+            width: 345px;
+            height: 284px;
+        }
+        a.cobrandMenu:first-child{
+            margin-bottom: 16px;
+        }
+        .recommend{
+            padding: 32px 15px;
+        }
+        .recommend .container{
+            justify-content: center;
+        }
+        .recommendCard {
+            width: 345px;
+            margin-bottom: 16px;
+        }
+        .contact{
+            padding: 32px 15px;
+        }
+        .fotMenu{
+            display:none;
+        }
+        .copyright, .copyright ul.copyrightList, .copyright ul.copyrightList{
+           flex-direction: column;
+           align-items: flex-start;
+           width: 100% ;
+        }
+        .copyrightList, .copyrightListItem{
+            margin-bottom: 8px;
+        }
+        .copyrightListItem{
+            width: 100%;
+            text-align-last: left;
+            margin-left: 0;
+        }
+        .copyright ul.copyrightList:after{
+            content: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true');
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
     }
 }
