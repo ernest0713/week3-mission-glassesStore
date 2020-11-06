@@ -157,6 +157,9 @@
         .banner h2{
             font-size: 32px;
         }
+        .features {
+            padding: 32px 55px;
+        }
         .features ul li{
             width: 100%;
         }
@@ -178,7 +181,7 @@
             margin-top: -21px;
         }
         .themeIcon{
-            filter: brightness(300);
+            filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(27deg) brightness(114%) contrast(101%);
         }
         .classicList li:nth-child(2) .themeTitle{
             padding: 0;
