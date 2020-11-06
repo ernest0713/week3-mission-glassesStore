@@ -176,7 +176,6 @@
         }
         .themeIcon{
             filter: brightness(300);
-            opacity: 0.8;
         }
         .classicList li:nth-child(2) .themeTitle{
             padding: 0;
@@ -193,7 +192,7 @@
             width: 345px;
             height: 284px;
         }
-        a.cobrandMenu:first-child{
+        .cobrandMenu:first-child{
             margin-bottom: 16px;
         }
         .recommend{
@@ -212,10 +211,23 @@
         .fotMenu{
             display:none;
         }
-        .copyright, .copyright ul.copyrightList, .copyright ul.copyrightList{
+        .footer .contactList a{
+            font-size: 16px;
+        }
+        .contactList img{
+            width: 20px;
+            height: 20px;
+        }
+        .fotIcon li{
+            margin-left: 24px;
+        }
+        .fotIcon li:first-child{
+            margin-left: 0px;
+        }
+        .copyright, .copyright ul.copyrightList{
            flex-direction: column;
            align-items: flex-start;
-           width: 100% ;
+           width: 100%;
         }
         .copyrightList, .copyrightListItem{
             margin-bottom: 8px;
